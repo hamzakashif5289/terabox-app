@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import axios from "axios";
 import { NextRequest, NextResponse } from "next/server";
 import { env } from "process";
